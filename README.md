@@ -1,28 +1,26 @@
 # JavaScript Array Methods
 
-This repository contains JavaScript code examples demonstrating the usage of various array methods such as `slice`, `splice`, `reverse`, `concat`, `join`, and `forEach`.
-
-## Table of Contents
-- [Overview](#overview)
-- [Array Methods Covered](#array-methods-covered)
-  - [`slice`](#slice)
-  - [`splice`](#splice)
-  - [`reverse`](#reverse)
-  - [`concat`](#concat)
-  - [`join`](#join)
-  - [`forEach`](#foreach)
-- [Usage](#usage)
-- [Installation](#installation)
-- [License](#license)
+This repository contains JavaScript code examples that demonstrate the usage of various array methods, including `slice`, `splice`, `reverse`, `concat`, `join`, and `forEach`.
 
 ## Overview
-These code snippets illustrate how different JavaScript array methods work and can be applied to solve common programming tasks efficiently.
+Explore practical examples of JavaScript array methods to understand their functionality and usage in different scenarios.
 
 ## Array Methods Covered
 
-### `slice`
-The `slice` method returns a shallow copy of a portion of an array into a new array object.
+### Slice
+Extracts a portion of an array without modifying the original array.
 
-```javascript
-let arr = ['a', 'b', 'c', 'd', 'e'];
-console.log(arr.slice(2));      // Output: ['
+### Splice
+Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+### Reverse
+Reverses the order of the elements in an array in place.
+
+### Concat
+Merges two or more arrays to form a new array.
+
+### Join
+Joins all elements of an array into a string, separated by a specified separator.
+
+### forEach
+Executes a provided function once for each array element.
